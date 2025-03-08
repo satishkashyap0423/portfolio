@@ -41,7 +41,7 @@ export function Projects() {
       title: "Unfoldu Online Solutions",
       description:
         "UnfoldU is an educational-based digital learning company providing innovative learning solutions. It offers free basic knowledge online and advanced courses at nominal charges.",
-      image: "/unfoldU.png?height=400&width=600",
+      image: "/UnfoldU.png?height=400&width=600",
       technologies: ["React-Native", "Firebase", "PHP", "MySQL"],
       liveUrl: "#",
       githubUrl: "#",
