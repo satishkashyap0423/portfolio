@@ -37,7 +37,7 @@ export function About() {
             transition={{ duration: 0.7 }}
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary">
-              <Image src="/placeholder.svg?height=320&width=320" alt="John Doe" fill className="object-cover" />
+              <Image src="/profle.jpeg?height=320&width=320" alt="John Doe" fill className="object-cover" />
             </div>
           </motion.div>
           <motion.div
