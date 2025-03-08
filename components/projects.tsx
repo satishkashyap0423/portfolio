@@ -14,7 +14,7 @@ export function Projects() {
       title: "Field Equip",
       description:
         "FieldEquip digital solutions allowed our organization to automate and digitalize manual processes, which resulted in a remarkable increase in the overall operational efficiency.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/fieldequip.png?height=400&width=700",
       technologies: ["React", "Node.js", "MongoDB", "Stripe"],
       liveUrl: "#",
       githubUrl: "#",
@@ -23,16 +23,16 @@ export function Projects() {
       title: "ZAZU",
       description:
         "Stop swiping, start dating! With Zazu, meet first and chat later—because a date is worth a thousand texts.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/zazu.jpg?height=400&width=600",
       technologies: ["React-Native", "Firebase", "PHP", "MongoDB"],
       liveUrl: "#",
       githubUrl: "#",
     },
     {
-      title: "Awsini Bajaj Study App",
+      title: "Preplearn Study App",
       description:
-        "Aswini Bajaj Study App is an educational platform for accounting students, offering encrypted study videos and materials. The app is sold exclusively offline to users",
-      image: "/placeholder.svg?height=400&width=600",
+        "Preplearn Study App is an educational platform for accounting students, offering encrypted study videos and materials. The app is sold exclusively offline to users",
+      image: "/preplearn.png?height=400&width=600",
       technologies: ["React", "NodeJS", "Express", "MySQL"],
       liveUrl: "#",
       githubUrl: "#",
@@ -41,7 +41,7 @@ export function Projects() {
       title: "Unfoldu Online Solutions",
       description:
         "UnfoldU is an educational-based digital learning company providing innovative learning solutions. It offers free basic knowledge online and advanced courses at nominal charges.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/unfoldU.png?height=400&width=600",
       technologies: ["React-Native", "Firebase", "PHP", "MySQL"],
       liveUrl: "#",
       githubUrl: "#",
@@ -50,7 +50,7 @@ export function Projects() {
       title: "Tic tac toe",
       description:
         "Tic Tac Toy is a fun and interactive game where players take turns placing Xs and Os on a grid to form a winning pattern. It enhances strategic thinking and can be played solo or with friends",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/tictaktoe.jpeg?height=400&width=600",
       technologies: ["Expo", "React-Native"],
       liveUrl: "#",
       githubUrl: "#",
@@ -60,8 +60,8 @@ export function Projects() {
       title: "Booking.com: Hotels and more",
       description:
         "A responsive portfolio website to showcase projects and skills (like this one!).",
-      image: "/placeholder.svg?height=400&width=600",
-      technologies: ["React-Native", "PHP", "Expo"],
+      image: "/bookingcom.jpg?height=400&width=600",
+      technologies: ["React-Native", "ReactJS", "PHP", "Expo"],
       liveUrl: "#",
       githubUrl: "#",
     },
@@ -129,19 +129,21 @@ export function Projects() {
                           rel="noopener noreferrer"
                         >
                           <ExternalLink className="h-4 w-4 mr-2" />
-                          Live Demo
+                          Live app
                         </Link>
                       </Button>
-                      <Button size="sm" variant="outline" asChild>
-                        <Link
-                          href={project.githubUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <Github className="h-4 w-4 mr-2" />
-                          Code
-                        </Link>
-                      </Button>
+                      {project?.githubUrl != "#" && (
+                        <Button size="sm" variant="outline" asChild>
+                          <Link
+                            href={project.githubUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <Github className="h-4 w-4 mr-2" />
+                            Code
+                          </Link>
+                        </Button>
+                      )}
                     </div>
                   )}
                 </CardContent>
