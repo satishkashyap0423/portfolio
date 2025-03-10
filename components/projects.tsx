@@ -56,10 +56,10 @@ export function Projects() {
       githubUrl: "#",
     },
     {
-      title: "Tic tac toe",
+      title: "ElectroVerse",
       description:
-        "Tic Tac Toy is a fun and interactive game where players take turns placing Xs and Os on a grid to form a winning pattern. It enhances strategic thinking and can be played solo or with friends",
-      image: "/tictaktoe.jpeg?height=400&width=600",
+        "ElectroVerse is a cutting-edge e-commerce platform offering the latest electronic gadgets, accessories, and smart devices at competitive prices. With a seamless shopping experience and fast delivery, ElectroVerse brings innovation to your doorstep",
+      image: "/electroverse.png?height=400&width=600",
       technologies: ["Expo", "React-Native"],
       liveUrl: "#",
       githubUrl: "#",
