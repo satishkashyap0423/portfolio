@@ -9,7 +9,7 @@ export function About() {
   const handleDownloadResume = () => {
     // Create a blob link to download the PDF
     const link = document.createElement("a")
-    link.href = "/Resume.pdf" // This would be the path to your resume PDF
+    link.href = "https://drive.google.com/file/d/1OJq7laMoIZr3ev7fSGTgRylV89epsf_E/view?usp=sharing" // This would be the path to your resume PDF
     link.setAttribute("download", "satish-kashyap-resume.pdf")
     document.body.appendChild(link)
     link.click()
