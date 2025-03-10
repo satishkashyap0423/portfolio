@@ -47,6 +47,15 @@ export function Projects() {
       githubUrl: "#",
     },
     {
+      title: "Kids Learning App",
+      description:
+        "An interactive and fun learning platform for kids, featuring engaging activities in alphabets, numbers, math, and quizzes!",
+      image: "/kidsLearningapp.png?height=400&width=600",
+      technologies: ["React-Native", "ReactJS", "PHP", "Expo", "Vite"],
+      liveUrl: "#",
+      githubUrl: "#",
+    },
+    {
       title: "Tic tac toe",
       description:
         "Tic Tac Toy is a fun and interactive game where players take turns placing Xs and Os on a grid to form a winning pattern. It enhances strategic thinking and can be played solo or with friends",
@@ -56,15 +65,7 @@ export function Projects() {
       githubUrl: "#",
     },
 
-    {
-      title: "Booking.com: Hotels and more",
-      description:
-        "A responsive portfolio website to showcase projects and skills (like this one!).",
-      image: "/bookingcom.jpg?height=400&width=600",
-      technologies: ["React-Native", "ReactJS", "PHP", "Expo"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },
+    
   ];
 
   return (
