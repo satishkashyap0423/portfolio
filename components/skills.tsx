@@ -29,7 +29,7 @@ export function Skills() {
     {
       title: "DevOps & Tools",
       icon: <Code className="h-8 w-8 text-primary" />,
-      skills: ["Git", "GitHub", "CI/CD", "AWS code-commit" ],
+      skills: ["Git", "GitHub", "CI/CD", "AWS code-commit", "Android Studio", "XCode", "VSCode" ],
     },
     {
       title: "Other",
