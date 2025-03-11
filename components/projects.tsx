@@ -47,6 +47,15 @@ export function Projects() {
       githubUrl: "#",
     },
     {
+      title: "CodeLab Share",
+      description:
+        "Write, run, and share JavaScript code snippets in real-time. Perfect for testing ideas, creating demos, or sharing solutions with others",
+      image: "/code-share.png?height=400&width=600",
+      technologies: ["ReactJS", "Vite", "Tailwind CSS"],
+      liveUrl: "#",
+      githubUrl: "#",
+    },
+    {
       title: "Kids Learning App",
       description:
         "An interactive and fun learning platform for kids, featuring engaging activities in alphabets, numbers, math, and quizzes!",
@@ -55,17 +64,6 @@ export function Projects() {
       liveUrl: "#",
       githubUrl: "#",
     },
-    {
-      title: "ElectroVerse",
-      description:
-        "ElectroVerse is a cutting-edge e-commerce platform offering the latest electronic gadgets, accessories, and smart devices at competitive prices. With a seamless shopping experience and fast delivery, ElectroVerse brings innovation to your doorstep",
-      image: "/electroverse.png?height=400&width=600",
-      technologies: ["Expo", "React-Native"],
-      liveUrl: "#",
-      githubUrl: "#",
-    },
-
-    
   ];
 
   return (
