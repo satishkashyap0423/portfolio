@@ -16,16 +16,16 @@ export function Projects() {
         "FieldEquip digital solutions allowed our organization to automate and digitalize manual processes, which resulted in a remarkable increase in the overall operational efficiency.",
       image: "/fieldequip.png?height=400&width=700",
       technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      liveUrl: "#",
+      liveUrl: "https://www.fieldequip.com/",
       githubUrl: "#",
     },
     {
       title: "ZAZU",
       description:
-        "Stop swiping, start dating! With Zazu, meet first and chat later—because a date is worth a thousand texts.",
+        "Stop swiping, start dating! With Zazu, meet first and chat later—because a date is Stop swiping, start dating! With Zazu, meet first and chat later — because a date is worth a thousand texts",
       image: "/zazu.jpg?height=400&width=600",
       technologies: ["React-Native", "Firebase", "PHP", "MongoDB"],
-      liveUrl: "#",
+      liveUrl: "https://apkpure.com/zazu/com.app.zazu",
       githubUrl: "#",
     },
     {
@@ -43,7 +43,7 @@ export function Projects() {
         "UnfoldU is an educational-based digital learning company providing innovative learning solutions. It offers free basic knowledge online and advanced courses at nominal charges.",
       image: "/UnfoldU.png?height=400&width=600",
       technologies: ["React-Native", "Firebase", "PHP", "MySQL"],
-      liveUrl: "#",
+      liveUrl: "https://unfoldu-discover-your-hidden-potential.en.softonic.com/android",
       githubUrl: "#",
     },
     {
@@ -52,7 +52,7 @@ export function Projects() {
         "Write, run, and share JavaScript code snippets in real-time. Perfect for testing ideas, creating demos, or sharing solutions with others",
       image: "/code-share.png?height=400&width=600",
       technologies: ["ReactJS", "Vite", "Tailwind CSS"],
-      liveUrl: "#",
+      liveUrl: "https://code-share-bay.vercel.app/",
       githubUrl: "#",
     },
     {
@@ -61,7 +61,7 @@ export function Projects() {
         "An interactive and fun learning platform for kids, featuring engaging activities in alphabets, numbers, math, and quizzes!",
       image: "/kidsLearningapp.png?height=400&width=600",
       technologies: ["React-Native", "ReactJS", "PHP", "Expo", "Vite"],
-      liveUrl: "#",
+      liveUrl: "https://kids-learn-swart.vercel.app/",
       githubUrl: "#",
     },
   ];
